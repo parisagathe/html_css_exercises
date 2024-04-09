@@ -10,3 +10,23 @@
     font-family: Montserrat, sans-serif;
     list-style: none;
 }
+
+button {
+    background: none;
+    outline: none;
+    border: 1px solid whitesmoke;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+button:hover {
+    color: black;
+    background: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
