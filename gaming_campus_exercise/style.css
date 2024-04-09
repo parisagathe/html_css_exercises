@@ -119,3 +119,35 @@ h1 {
     line-height: 34px;
     margin: 0 auto;
 }
+
+.offers-part {
+    background: rgb(15, 15, 15);
+    padding: 65px 0;
+    color: whitesmoke;
+}
+
+.offers-part-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.ocp-logo {
+    margin-bottom: 30px;
+}
+
+.offers-part h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.offers-part p {
+    width: 80%;
+    margin: 10px auto 20px;
+}
+
+.offers-part button {
+    padding: 9px 32px;
+}
