@@ -126,7 +126,7 @@ h1 {
     color: whitesmoke;
 }
 
-.offers-part-container {
+.offers-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -384,5 +384,55 @@ footer ul {
 
     footer li {
         margin: 5px;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    nav li {
+        display: none;
+    }
+
+    .offers-part {
+        padding: 0 0 30px;
+    }
+
+    .offers-container {
+        display: block;
+    }
+
+    .ns-header {
+        display: block;
+    }
+
+    .ns-header-left-part {
+        width: 100%;
+    }
+
+    .ns-header-left-part h2 {
+        text-align: center;
+    }
+
+    .ns-header-left-part p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .main-news-container {
+        display: block;
+    }
+
+    .main-news-container div {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        margin-top: 58px;
+    }
+
+    .main-news-container img {
+        width: 50%;
+    }
+
+    .useful-info {
+        display: none;
     }
 }
