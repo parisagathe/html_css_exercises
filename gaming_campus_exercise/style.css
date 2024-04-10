@@ -241,3 +241,101 @@ h1 {
 .main-news a i {
     transform: translateX(5px);
 }
+
+.useful-info {
+    padding: 65px 0 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.useful-links {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 400;
+    position: relative;
+}
+
+.useful-links::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    background: rgb(235, 235, 235);
+    bottom: -28px;
+}
+
+.useful-links .list {
+    text-align: left;
+    width: 24%;
+}
+
+#gc-log img {
+    margin: 0 auto;
+    display: block;
+}
+
+.useful-links h5 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.useful-info-links li {
+    margin: 15px 0;
+}
+
+.list p {
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.list h6 {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+}
+
+.list .network {
+    margin: 20px 0 8px;
+}
+
+.network-logos i {
+    font-size: 0.8rem;
+    margin: 0 12px 30px 0;
+}
+
+.copyright {
+    margin: 0;
+}
+
+.media-section {
+    padding: 60px 0 15px;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.media-mentions {
+    text-align: left;
+    width: 30%;
+}
+
+.media-mentions h3 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.media-mentions a {
+    font-size: 0.8rem;
+}
+
+.media-logos {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.media-logos img {
+    width: 60px;
+}
