@@ -358,3 +358,31 @@ footer ul {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/* *************************** MEDIA QUERIES *************************** */
+
+@media screen and (max-width: 895px) {
+    nav li {
+        font-size: 0.7rem;
+    }
+
+    .main-header img {
+        width: 60%;
+    }
+
+    .useful-links .list {
+        padding-left: 15px;
+    }
+
+    .media-logos img {
+        width: 40px;
+    }
+
+    footer ul {
+        flex-wrap: wrap;
+    }
+
+    footer li {
+        margin: 5px;
+    }
+}
