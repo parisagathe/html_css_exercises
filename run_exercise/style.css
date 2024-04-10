@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Source Sans 3";
+    src: url(./assets/font/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
