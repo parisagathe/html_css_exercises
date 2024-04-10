@@ -97,3 +97,46 @@ button {
 .investors-img-container img {
     height: 60px;
 }
+
+/* *************************** MEDIA QUERIES *************************** */
+
+@media screen and (max-width: 870px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-left-container h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    nav {
+        grid-template-columns: 35% 65%;
+    }
+
+    nav ul {
+        font-size: 0.7rem;
+    }
+
+    .main-content {
+        display: block;
+    }
+
+    .infos {
+        display: block;
+        text-align: center;
+    }
+
+    button {
+        margin: 5px auto;
+    }
+
+    .investors-img-container img {
+        height: 33px;
+    }
+}
