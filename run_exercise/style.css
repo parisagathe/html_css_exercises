@@ -190,3 +190,53 @@ footer a {
     align-items: center;
     transition: 0.3s;
 }
+
+/* ***************************** RESPONSIVE **************************** */
+
+@media screen and (max-width: 650px) {
+    header,
+    .section-1,
+    .section-2 {
+        display: block;
+    }
+
+    header {
+        height: auto;
+    }
+
+    header .img-banner {
+        height: 50vh;
+        margin-top: 30px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .section-1 {
+        box-shadow: none;
+    }
+
+    .section-1,
+    .section-2 {
+        min-height: 310px;
+    }
+
+    .section-1 img,
+    .section-2 img {
+        display: none;
+    }
+
+    footer ul {
+        min-width: 200px;
+    }
+
+    footer a {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer i {
+        font-size: 0.7rem;
+    }
+}
