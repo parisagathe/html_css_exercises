@@ -136,4 +136,54 @@ header .header-text div h6 {
   font-size: 0.75rem;
   letter-spacing: 6px;
   font-weight: 100;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: rgb(238, 238, 238);
+}
+@media screen and (max-width: 680px) {
+  .section-1 {
+    grid-template-columns: 1fr;
+  }
+}
+.section-1 .intro-text {
+  margin: 15px;
+  padding: 30px 15px;
+  border: 1px dashed rgb(166, 114, 69);
+}
+.section-1 .intro-text h2 {
+  color: rgb(166, 114, 69);
+  font-family: Allura, cursive;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.section-1 .intro-text h3 {
+  margin-top: -12px;
+  font-family: Poppings, serif;
+}
+.section-1 .intro-text img {
+  margin: 26px 0;
+}
+.section-1 .intro-text img:nth-of-type(2) {
+  height: 70px;
+  border-radius: 150px;
+  margin-bottom: 8px;
+}
+.section-1 .intro-text h4 {
+  font-family: Poppings, serif;
+  font-weight: 100;
+}
+.section-1 .intro-text h5 {
+  color: rgb(182, 182, 182);
+  font-size: 0.7rem;
+}
+.section-1 .intro-pic {
+  background: url(../img/store-01.jpg) center/cover;
+}
+@media screen and (max-width: 680px) {
+  .section-1 .intro-pic {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
