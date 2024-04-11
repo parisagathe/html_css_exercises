@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Allura";
+    src: url(../fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+$font1: Allura, cursive;
+$font2: Poppings, serif;
+$font3: Roboto, serif;
+
+$white: rgb(238, 238, 238);
+$black: rgb(33, 32, 30);
+$grey: rgb(182, 182, 182);
+$color1: rgb(166, 114, 69);
+
+@mixin childCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin alignChilden($space) {
+    display: flex;
+    align-items: center;
+    justify-content: $space;
+}
+
+// Pour utiliser cette mixin, remplacer le paramètre $space par la donnée que je veux selon les cas, par exemple @include alignChildren(space-around); ou @include alignChildren(space-between);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    text-align: center;
+    font-family: $font3;
+    background: $black;
+}
